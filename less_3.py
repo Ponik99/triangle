@@ -1,4 +1,4 @@
-def get_triangle(count: int):
+def get_triangle(count: int) -> None:
     for ii in range(count):
         n = 2 + ii
         summ = 2 * n - 1
